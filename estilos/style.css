@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+
+ cor 01- #64DECD
+ cor 02- #9E7D6F
+ cor 03- #DE8864
+ cor 04- #6B8985
+ cor 05- #5E5450
+ cor 05- #233432
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: #64DECD;
+    position: relative;
+}
+main{
+   position: relative;
+}
+section{
+    width: 300px;
+    height: 600px;
+    background-color: #25994c;
+    margin: auto;  
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 12.5%);
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px #00000065;
+}
+div#imagem{
+    width: 300px;
+    height: 240px;
+    background-color: aqua;
+    background-image: url(../imagens/varanda.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+}
+div#formulario{
+    display: block;
+
+    width: 300px;
+    height: 360px;
+    background-color: whitesmoke;
+}
+form{
+
+}
+form h1{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+p{
+    text-align: left;
+    margin: 5px;
+}
+.botoes{
+    display: block;
+    text-align: center;
+    margin:10px auto;
+    width: 250px;
+    height: 30px;
+}
+#enviar{
+    background-color: #9E7D6F;
+    
+}
