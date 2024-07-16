@@ -2,9 +2,40 @@
 
 
 /*  Tablets */
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    section#login {
-        width: 800px;
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to bottom, #9E7D6F, #233432);
     }
-   
+    section#login {
+        width: 90vw;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100%;
+    }
+}
+/* Desktops*/
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #9E7D6F, #233432);
+    }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
 }
